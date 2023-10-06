@@ -5,9 +5,8 @@ Latin.
 
 ## Table of Contents
 - [Features](#features)
-- [Usage](#usage)
-- [Run](#Run)
 - [Build](#Build)
+- [Run](#Run)
 
 ## Features
 
@@ -28,6 +27,7 @@ mvn clean install
 
 ## Run
 
+Program can be executed from command line, and has two modes of operation:
 - Interactive: prompts for source string and writes translation to the console (can be terminated
   with SIGINT, ie. CTRL+C). Please check interactive.bat
 ```script
